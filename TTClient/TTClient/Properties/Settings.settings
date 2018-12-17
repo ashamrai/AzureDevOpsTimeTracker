@@ -1,0 +1,77 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TTClient.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TFSUri" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TFSCollection" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DefaultCollection</Value>
+    </Setting>
+    <Setting Name="UseDefCreds" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="User" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Domain" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="WIActivity" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Activity</Value>
+    </Setting>
+    <Setting Name="ActiveState" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Active</Value>
+    </Setting>
+    <Setting Name="ActivityTypes" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Deployment&lt;/string&gt;
+  &lt;string&gt;Design&lt;/string&gt;
+  &lt;string&gt;Development&lt;/string&gt;
+  &lt;string&gt;Documentation&lt;/string&gt;
+  &lt;string&gt;Requirements&lt;/string&gt;
+  &lt;string&gt;Testing&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="LastActivityType" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="QueryActiveWI" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Select [System.Id], [System.Title], [System.State] From WorkItems Where [System.State] = '{0}' AND [System.AssignedTo] = @Me</Value>
+    </Setting>
+    <Setting Name="WIFieldTitle" Type="System.String" Scope="User">
+      <Value Profile="(Default)">System.Title</Value>
+    </Setting>
+    <Setting Name="WIFieldAssignedTo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">System.AssignedTo</Value>
+    </Setting>
+    <Setting Name="WIFieldTeamProject" Type="System.String" Scope="User">
+      <Value Profile="(Default)">System.TeamProject</Value>
+    </Setting>
+    <Setting Name="WIFieldWorkItemType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">System.WorkItemType</Value>
+    </Setting>
+    <Setting Name="WIFieldRemainingWork" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Microsoft.VSTS.Scheduling.RemainingWork</Value>
+    </Setting>
+    <Setting Name="WIFieldCompletedWork" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Microsoft.VSTS.Scheduling.CompletedWork</Value>
+    </Setting>
+    <Setting Name="WIFieldDiscipline" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Microsoft.VSTS.Common.Discipline</Value>
+    </Setting>
+    <Setting Name="WIFieldStartDate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Microsoft.VSTS.Scheduling.StartDate</Value>
+    </Setting>
+    <Setting Name="WIFieldFinishDate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Microsoft.VSTS.Scheduling.FinishDate</Value>
+    </Setting>
+    <Setting Name="WIFieldParentLink" Type="System.String" Scope="User">
+      <Value Profile="(Default)">System.LinkTypes.Hierarchy-Reverse</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
